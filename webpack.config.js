@@ -32,6 +32,14 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.jpg$/,
+        loader: 'url-loader?mimetype=image/jpg'
+      },
+      {
+        test: /\.svg$/,
+        loader: 'url-loader?mimetype=image/svg+xml'
       }
     ]
   },

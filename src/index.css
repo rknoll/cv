@@ -41,7 +41,7 @@ body {
     width: 210mm;
     height: 297mm;
   }
-  
+
   .page {
     margin: 0;
     border: initial;
@@ -56,6 +56,23 @@ body {
 
 text {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 2mm;
+  font-size: 1mm;
   dominant-baseline: text-before-edge;
+}
+
+.name {
+  font-size: 2mm;
+  text-anchor: middle;
+}
+
+.details a {
+  cursor: pointer;
+}
+
+.timeline>.title {
+  font-size: 1.7mm;
+}
+
+.timeline>.axis>text {
+  dominant-baseline: central;
 }
